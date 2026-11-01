@@ -1,0 +1,639 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Комплект «365 днів до НУШ»: 8 посібників для дошкільнят за 1240 грн | Літера</title>
+<meta name="description" content="8 посібників для підготовки дошкільнят до НУШ: грамота, логіка, письмо, мовлення й English. Одним замовленням за 1240 грн.">
+<meta property="og:title" content="Рік до школи — з планом. Комплект «365 днів до НУШ»">
+<meta property="og:description" content="8 посібників для дошкільнят одним замовленням за 1240 грн.">
+<meta property="og:image" content="img/og.jpg">
+<meta name="theme-color" content="#FDC93C">
+<script>document.documentElement.classList.add('js')</script>
+<link rel="preload" href="fonts/KyivTypeSans.woff" as="font" type="font/woff" crossorigin>
+<!-- Meta Pixel / GA4 став сюди, лише якщо клієнт дав ідентифікатори -->
+<style>
+@font-face{font-family:"KyivType Sans";src:url(fonts/KyivTypeSans.woff) format("woff");font-weight:100 900;font-display:swap}
+/* ---------- токени ---------- */
+:root{
+  --red:#E72F2A; --sun:#FDC93C; --green:#5CA84C; --blue:#02A0DD;
+  --ink:#1D1D1B; --sub:#474747; --paper:#FDFBFB; --cream:#FFF6DE;
+  --t-sun:#FFEFC2; --t-green:#DDEFD8; --t-blue:#D3EEF9; --t-red:#FBDDDB;
+  --accent:var(--red); --on-accent:#fff; --bg:var(--paper); --surface:#FFF;
+  --font-display:"KyivType Sans",Onest,system-ui,sans-serif;
+  --font-body:"KyivType Sans",Onest,system-ui,sans-serif;
+  --font-label:"KyivType Sans",Onest,system-ui,sans-serif;
+  --fs-hero:clamp(4.15rem,17.6vw,6.9rem);
+  --fs-h2:clamp(2.6rem,10.4vw,4.8rem);
+  --fs-h3:clamp(1.3rem,4.8vw,1.75rem);
+  --fs-body:clamp(1.0625rem,1.2vw,1.25rem);
+  --fs-label:.8125rem;
+  --gutter:clamp(1.25rem,4vw,4rem);
+  --sect:clamp(4.5rem,10vw,9rem);
+  --max:1400px;
+  --hard:0 5px 0 var(--ink);
+}
+/* ---------- каркас ---------- */
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 var(--fs-body)/1.5 var(--font-body);-webkit-font-smoothing:antialiased;overflow-x:clip}
+img,svg,video{display:block;max-width:100%;height:auto}
+h1,h2,h3,p,ul,ol,figure{margin:0;padding:0}
+ul,ol{list-style:none}
+a{color:inherit}
+b{font-weight:700}
+h1,h2{font-family:var(--font-display);line-height:.98;letter-spacing:-.025em;text-wrap:balance;font-weight:800}
+h1{font-size:var(--fs-hero)} h2{font-size:var(--fs-h2)}
+h3{font-family:var(--font-display);font-size:var(--fs-h3);line-height:1.12;font-weight:800;letter-spacing:-.01em}
+p{max-width:60ch;text-wrap:pretty}
+.wrap{width:min(100%,var(--max));margin-inline:auto;padding-inline:var(--gutter)}
+.sect{padding-block:var(--sect);position:relative;overflow-x:clip}
+.label{font:700 var(--fs-label)/1.2 var(--font-label);letter-spacing:.06em;text-transform:uppercase}
+:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+.fill{background:#FFE98A;padding:0 .2em;font-weight:500;box-decoration-break:clone;-webkit-box-decoration-break:clone;color:var(--ink)}
+
+/* ---------- кнопка ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.6em;min-height:60px;padding:.8em 1.3em;background:var(--red);color:#fff;font:800 1.2rem/1.1 var(--font-body);text-decoration:none;text-align:center;border-radius:14px;box-shadow:var(--hard);transition:transform .15s,box-shadow .15s}
+.btn:hover{transform:translateY(3px);box-shadow:0 2px 0 var(--ink)}
+
+/* ---------- закріплена кнопка ---------- */
+.sticky-cta{position:fixed;inset:auto 0 0;z-index:50;padding:.6rem var(--gutter) calc(.9rem + env(safe-area-inset-bottom));transform:translateY(calc(100% + 2.5rem));transition:transform .3s}
+.sticky-cta.on{transform:none}
+.sticky-cta .btn{width:100%}
+@media (min-width:1000px){.sticky-cta{inset:auto 1.5rem 1.5rem auto;padding:0;width:auto}.sticky-cta .btn{width:auto}}
+
+/* ---------- поява ---------- */
+.js .reveal{opacity:0;translate:0 24px;transition:opacity .7s,translate .7s cubic-bezier(.2,.7,.2,1)}
+.js .reveal.in{opacity:1;translate:0 0}
+
+/* ---------- заповнювач фото ---------- */
+.ph{display:flex;align-items:flex-end;padding:1rem;min-height:14rem;background:rgba(255,255,255,.55);color:var(--ink);font:500 .875rem/1.35 var(--font-label);border:2px dashed currentColor;border-radius:4px}
+
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .js .reveal{opacity:1;translate:none}
+}
+
+/* ---------- фірмовий жест: перфорація відривного календаря ---------- */
+.perf::before{content:"";position:absolute;inset:0 0 auto;height:9px;z-index:1;background:radial-gradient(circle 9px at 50% 0,var(--prev) 96%,#0000) 0 0/28px 9px repeat-x;pointer-events:none}
+.leaf{--n:6px;--t:20px;position:relative;background:#fff;color:var(--ink);
+  -webkit-mask:radial-gradient(circle var(--n) at 50% 0,#0000 96%,#000) 0 0/var(--t) 100% repeat-x;
+          mask:radial-gradient(circle var(--n) at 50% 0,#0000 96%,#000) 0 0/var(--t) 100% repeat-x}
+.leaf-w{position:relative;filter:drop-shadow(0 7px 10px rgba(40,25,0,.22))}
+.stacked::before,.stacked::after{content:"";position:absolute;inset:0;background:#fff;border-radius:2px}
+.stacked::before{transform:translate(5px,6px) rotate(1.1deg);background:#F2EDE2}
+.stacked::after{transform:translate(9px,11px) rotate(2deg);background:#E4DCCB;z-index:-1}
+.stacked>.leaf{z-index:1}
+.band{display:block;background:var(--red);color:#fff;font-weight:800;padding:.85em .8em .45em;font-size:.875rem;line-height:1.1;letter-spacing:.01em}
+.band.y{background:var(--sun);color:var(--ink)}
+.band.g{background:var(--green);color:var(--ink)}
+.band.b{background:var(--blue);color:var(--ink)}
+.doodle{position:absolute;fill:none;stroke:currentColor;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+
+/* ---------- перший екран ---------- */
+.hero{background:var(--sun);position:relative;z-index:3;overflow-x:clip;padding-block:1rem 2rem}
+.top{display:flex;align-items:center;justify-content:space-between;gap:1rem}
+.logo{width:clamp(96px,10vw,130px);height:auto}
+.serie{font-weight:800;font-size:.875rem;line-height:1;padding:.55em .8em;border:2.5px solid var(--ink);border-radius:18px 15px 19px 14px;white-space:nowrap}
+.hero-grid{display:grid;gap:.75rem;margin-top:.9rem;grid-template-areas:"copy" "pile" "cta"}
+.hero-copy{grid-area:copy}.pile{grid-area:pile}.hero-cta{grid-area:cta}
+.mark{position:relative;display:inline-block;white-space:nowrap}
+.mark svg{position:absolute;left:-2%;right:0;bottom:-.14em;width:104%;height:.2em;overflow:visible;fill:none;stroke:var(--red);stroke-width:7;stroke-linecap:round}
+.lead{margin-top:1.05rem;font-size:1.0625rem;line-height:1.36;font-weight:500}
+.pile{position:relative;aspect-ratio:390/290;margin-inline:calc(var(--gutter) * -1)}
+.c{position:absolute;width:var(--w,35%);left:var(--x);top:var(--y);transform:rotate(var(--r,0deg));border-radius:3px;box-shadow:0 8px 14px rgba(70,40,0,.3)}
+.hero-leaf{position:absolute;right:calc(var(--gutter) * .75);bottom:-6%;width:128px;transform:rotate(5deg);z-index:9}
+.hero-leaf .num{display:block;font-weight:800;font-size:2.95rem;line-height:.95;letter-spacing:-.035em;padding:.16em .18em 0;text-align:center}
+.hero-leaf .cur{display:block;text-align:center;font-weight:700;font-size:.875rem;line-height:1.15;padding:.1em .4em .75em}
+.hero-leaf .band{text-align:center}
+.hero-cta .btn{width:100%}
+.hero .d1{top:6.2rem;right:-1.2rem;width:92px;color:#fff;opacity:.9;display:none}
+
+/* ---------- для кого ---------- */
+.who{--prev:var(--sun);background-color:#fff;background-image:linear-gradient(#D9EAF4 1px,#0000 1px),linear-gradient(90deg,#D9EAF4 1px,#0000 1px);background-size:22px 22px;padding-bottom:calc(var(--sect) + 3.5rem)}
+.who h2{max-width:13ch}
+.who ul{margin-top:2.2rem;display:grid;gap:1.7rem}
+.who li{position:relative;padding-left:3.1rem}
+.who li>svg{position:absolute;left:0;top:.05rem;width:2.4rem;fill:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+.who h3{margin-bottom:.35rem}
+.who p{color:var(--sub)}
+
+/* ---------- анти-обіцянка ---------- */
+.anti{--prev:#fff;background:var(--blue);position:relative;z-index:2;overflow-x:clip;overflow-y:visible}
+.anti-grid{display:grid;gap:2rem}
+.tear{position:relative;width:min(58vw,250px);aspect-ratio:1/1.14;margin-top:calc(var(--sect) * -1 - 4.5rem);margin-left:auto;margin-right:.3rem;transform:rotate(-3deg)}
+.tear .leaf{position:absolute;inset:0;display:flex;flex-direction:column;--n:7px;--t:23px}
+.tear .big{flex:1;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:clamp(5.2rem,24vw,7.4rem);letter-spacing:-.04em;line-height:1}
+.tear small{display:block;text-align:center;font-size:.875rem;line-height:1.2;font-weight:600;padding:0 .6em 1em}
+.tear .band{text-align:center;font-size:1rem}
+.tear .top-sheet{transition:transform .7s cubic-bezier(.5,0,.8,.5),opacity .7s}
+.tear .top-sheet.off{transform:translate(-14px,-70px) rotate(-16deg);opacity:0}
+.anti h2{max-width:11ch}
+.fallen{position:absolute;left:var(--gutter);top:2.6rem;display:flex;gap:.4rem;z-index:0}
+.fallen .leaf-w{width:58px;transform:rotate(var(--r))}
+.fallen .leaf-w:nth-child(2){margin:1.5rem 0 0 -.9rem}
+.fallen .leaf{--n:3px;--t:11px}
+.fallen .band{height:15px;padding:0}
+.fallen b{display:block;text-align:center;font-weight:800;font-size:1.125rem;padding:.35rem 0 .6rem;letter-spacing:-.02em}
+.anti p{margin-top:1.2rem;font-weight:500;font-size:clamp(1.15rem,1.6vw,1.45rem);line-height:1.38;max-width:34ch}
+
+/* ---------- що всередині ---------- */
+.books{--prev:var(--blue);background:var(--cream)}
+.books h2{max-width:13ch}
+.books .intro{margin-top:1.1rem;max-width:44ch}
+.bk-top{display:grid;gap:1rem;margin-top:2.4rem}
+.card{position:relative;padding:1.25rem}
+.start{background:#fff;display:grid;grid-template-columns:40% 1fr;gap:1rem;align-items:start;padding:0 1.1rem 1.2rem;box-shadow:0 0 0 2px var(--ink);border-radius:3px;margin-top:1.3rem}
+.start img{border-radius:3px;transform:rotate(-3deg);margin-top:-1.2rem;box-shadow:0 8px 14px rgba(70,40,0,.28)}
+.start .label,.stairs .label{display:inline-block;padding:.35em .55em;margin-bottom:.6rem}
+.start .label{background:var(--sun);margin-top:1rem}
+.start h3{margin-bottom:.5rem}
+.start p,.tile p,.stair-txt p{font-size:1rem;line-height:1.38}
+.start .span{grid-column:1/-1;margin-top:.1rem}
+.who-wrote{display:block;font-size:.875rem;color:var(--sub);line-height:1.25;margin-top:.45rem}
+.stairs{background:var(--t-blue);padding:1.25rem 1.1rem 1.3rem;border-radius:3px}
+.stairs .label{background:var(--blue);color:var(--ink)}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:.55rem;align-items:start;margin-top:.7rem}
+.steps img{border-radius:3px;box-shadow:0 7px 12px rgba(0,50,80,.3)}
+.steps li:nth-child(1){margin-top:3.6rem}.steps li:nth-child(2){margin-top:1.8rem}
+.steps b{display:block;text-align:center;font-weight:800;margin-top:.45rem;font-size:1rem}
+.stair-txt{display:grid;gap:.8rem;margin-top:.9rem}
+.stair-txt h3{font-size:1.125rem;margin-bottom:.15rem}
+.tiles{display:grid;gap:2.6rem 1rem;margin-top:3rem}
+.tile{position:relative;display:grid;grid-template-columns:38% 1fr;gap:.9rem;padding:0 1rem 1.2rem;background:var(--tint);border-radius:3px}
+.tile img{margin-top:-1.3rem;border-radius:3px;transform:rotate(var(--r));box-shadow:0 8px 14px rgba(40,30,0,.28);align-self:start}
+.tile>div{padding-top:1rem}
+.tile:nth-child(even){grid-template-columns:1fr 38%}
+.tile:nth-child(even) img{order:2}
+.tile h3{margin-bottom:.45rem}
+.plus{display:inline-block;margin-top:.55rem;font-weight:800;font-size:.9375rem;line-height:1.2;background:#fff;padding:.3em .5em;transform:rotate(-1.5deg)}
+
+/* ---------- речі ---------- */
+.things{--prev:var(--cream);background:var(--green)}
+.things-grid{display:grid;gap:2.2rem}
+.things h2{max-width:11ch}
+.things p.note{margin-top:1rem;font-weight:500;max-width:36ch}
+.stickers{display:flex;flex-wrap:wrap;gap:.6rem;align-items:center}
+.start .plus{background:var(--t-sun)}
+.sticker{background:#fff;padding:.7rem .95rem;border-radius:16px;box-shadow:0 4px 0 rgba(0,0,0,.2);transform:rotate(var(--r,0deg));font-size:.9375rem;line-height:1.22}
+.sticker b{display:block;font-size:1.25rem;font-weight:800;line-height:1.08;margin-bottom:.15rem}
+.sticker.y{background:var(--sun)} .sticker.i{background:var(--ink);color:#fff}
+.things-r{display:grid;gap:1.6rem}
+.things .ph{min-height:11rem;background:rgba(255,255,255,.3)}
+
+/* ---------- вдома ---------- */
+.home{--prev:var(--green);background:var(--t-blue)}
+.home h2{max-width:12ch}
+.days{display:grid;gap:1.7rem;margin-top:2.4rem}
+.days .leaf{height:100%;background:#fff}
+.days .band{font-size:1.125rem;padding:.9em 1rem .5em}
+.days p{padding:.8rem 1rem 1.1rem;font-size:1.0625rem;line-height:1.4}
+.days .leaf-w{transform:rotate(var(--r));filter:drop-shadow(0 6px 8px rgba(0,60,90,.2))}
+.days .leaf-w:nth-child(2){margin-left:1.2rem}
+.days .leaf-w:nth-child(3){margin-right:1.2rem}
+
+/* ---------- докази ---------- */
+.proof{--prev:var(--t-blue);background:var(--ink);color:#fff;z-index:2;overflow-x:clip;overflow-y:visible}
+.proof-grid{display:grid;gap:2.4rem}
+.proof h2{max-width:12ch}
+.proof .sub{color:#E9E6DF}
+.authors{margin-top:1.6rem;display:grid;gap:.85rem}
+.authors li{border-top:1px solid #5A5A56;padding-top:.75rem;display:grid;gap:.1rem}
+.authors b{font-size:1.1875rem;font-weight:700}
+.authors span{color:#D6D2CA;font-size:1rem;line-height:1.3}
+.stamp{position:absolute;right:var(--gutter);top:-5.6rem;z-index:3;width:9.25rem;height:9.25rem;border-radius:50%;background:var(--sun);color:var(--ink);display:flex;align-items:center;justify-content:center;text-align:center;font-weight:800;font-size:.8125rem;line-height:1.15;padding:.7rem;transform:rotate(-6deg);box-shadow:0 0 0 4px var(--ink),0 0 0 6px var(--sun)}
+.revs{display:grid;grid-template-columns:1fr 1fr;gap:.6rem}
+.revs .ph{color:#fff;background:#2C2C29;min-height:11rem}
+.revs .ph:first-child{grid-column:1/-1;min-height:9rem}
+
+/* ---------- офер ---------- */
+.offer{--prev:var(--ink);background:var(--red);position:relative;z-index:3;overflow-x:clip;overflow-y:visible;padding-bottom:0}
+.offer h2{color:#fff;max-width:11ch}
+.offer-leaf{margin-top:2rem;transform:rotate(-1.2deg);margin-bottom:-3.5rem}
+.offer-leaf .leaf{--n:8px;--t:26px}
+.offer-leaf .band{font-size:1.0625rem;padding:1.15em 1.1rem .6em}
+.offer-in{display:grid}
+.pricebox{padding:1.1rem 1.1rem 1.4rem;position:relative}
+.bigprice{position:relative;display:inline-block;font-weight:800;font-size:clamp(4.9rem,23vw,9.4rem);line-height:.95;letter-spacing:-.04em;color:var(--ink);padding:.14em .34em .18em .18em}
+.bigprice svg{position:absolute;inset:-3% -4%;width:108%;height:106%;fill:none;stroke:var(--red);stroke-width:5;stroke-linecap:round;overflow:visible}
+.bigprice small{font-size:.22em;letter-spacing:0;font-weight:700;margin-left:.15em;vertical-align:1.1em}
+.math{margin:.55rem 0 1rem;font-weight:500;font-size:1.0625rem;line-height:1.35}
+.pricebox .btn{width:100%}
+.pay{margin-top:.8rem;font-size:.9375rem;line-height:1.35;color:var(--sub)}
+.list{padding:.3rem 1.1rem .4rem;border-top:2px dashed #CFC8B8}
+.list li{display:grid;grid-template-columns:40px 1fr;gap:.7rem;align-items:center;padding:.45rem 0;border-bottom:1px solid #EAE5DA;font-size:.9688rem;line-height:1.22}
+.list li:last-child{border:0}
+.list img{width:40px;border-radius:2px}
+.list b{font-weight:700}
+
+/* ---------- FAQ ---------- */
+.faq{--prev:var(--red);background:#fff;padding-top:calc(var(--sect) + 3.5rem)}
+.faq-grid{display:grid;gap:2.6rem}
+.faq h2{max-width:11ch}
+.ship{display:grid;gap:.7rem;margin-top:1.4rem}
+.ship li{padding:.9rem 1rem;background:var(--t-sun);line-height:1.35;font-size:1rem}
+.ship b{display:block;font-weight:800}
+details{border-top:2px solid var(--ink)}
+details:last-of-type{border-bottom:2px solid var(--ink)}
+summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:1rem;align-items:center;min-height:56px;padding:.8rem 0;font-weight:700;font-size:1.125rem;line-height:1.2}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-size:1.75rem;font-weight:400;line-height:1;color:var(--red);transition:transform .2s;flex:none}
+details[open] summary::after{transform:rotate(45deg)}
+details p{padding:0 0 1.1rem;color:var(--sub);line-height:1.45}
+.care{margin-top:1.4rem;font-weight:500}
+
+/* ---------- фінал ---------- */
+.final{--prev:#fff;background:var(--sun);text-align:left;overflow:clip}
+.final h2{font-size:var(--fs-hero);max-width:9ch;position:relative;z-index:1}
+.final p{margin:1rem 0 1.5rem;font-weight:500;max-width:32ch}
+.final .btn{width:100%;position:relative;z-index:1}
+.hands{position:absolute;right:-6px;top:1.4rem;width:36%;max-width:360px}
+.hand{fill:currentColor}
+
+footer{--prev:var(--sun);background:var(--ink);color:#fff;padding-block:2.6rem 7rem;position:relative;font-size:.9375rem;line-height:1.5}
+footer .logo{width:110px;margin-bottom:1rem}
+footer a{color:#fff}
+footer .fill{color:var(--ink)}
+footer p+p{margin-top:.4rem}
+
+/* ---------- десктоп ---------- */
+@media (min-width:1000px){
+  .hero{padding-block:1.6rem 0}
+  .hero-grid{grid-template-columns:minmax(0,5.5fr) minmax(0,6.5fr);grid-template-rows:auto auto 1fr;grid-template-areas:"copy pile" "cta pile" ". pile";column-gap:2rem;row-gap:1.6rem;margin-top:2rem}
+  .lead{font-size:1.375rem;max-width:30ch;margin-top:1.5rem}
+  .hero-cta .btn{width:auto;min-width:27rem;font-size:1.3125rem}
+  .hero-cta{padding-bottom:3rem}
+  .pile{margin:0 calc(var(--gutter) * -1) -6rem 0;aspect-ratio:auto;height:45rem}
+  .pile .c:nth-of-type(n+5){margin-top:6.5rem}
+  .hero-leaf{width:196px;right:auto;left:-5.5%;bottom:auto;top:68%}
+  .hero-leaf .num{font-size:4.5rem}
+  .hero-leaf .cur,.hero-leaf .band{font-size:1.0625rem}
+  .hero .d1{display:block;top:1.6rem;right:auto;left:44%;width:110px}
+  .who{padding-block:calc(var(--sect) + 3rem) var(--sect)}
+  .who .wrap{display:grid;grid-template-columns:5fr 7fr;gap:3rem;align-items:start}
+  .who ul{margin-top:0;grid-template-columns:1fr 1fr;gap:3rem 2.5rem}
+  .who li:nth-child(even){margin-top:2.5rem}
+  .anti-grid{grid-template-columns:7fr 5fr;align-items:center}
+  .fallen{left:52%;top:auto;bottom:3rem;gap:1.2rem}
+  .fallen .leaf-w:nth-child(2){margin:1.5rem 0 0 0}
+  .fallen .leaf-w{width:104px}
+  .fallen .leaf{--n:5px;--t:16px}
+  .fallen .band{height:22px}
+  .fallen b{font-size:2rem}
+  .tear{order:2;width:340px;margin:calc(var(--sect) * -1 - 3.5rem) 8% 0 auto;align-self:start}
+  .bk-top{grid-template-columns:5fr 7fr;gap:1.5rem;align-items:stretch}
+  .books .head{display:grid;grid-template-columns:8fr 4fr;align-items:end;gap:2rem}
+  .books h2{max-width:20ch}
+  .start{grid-template-columns:44% 1fr;margin-top:1.3rem;padding:0 1.6rem 1.6rem;gap:1.5rem;align-items:center}
+  .stairs{display:grid;grid-template-columns:7fr 5fr;gap:1.6rem;padding:1.6rem}
+  .stairs .label{grid-column:1/-1;justify-self:start;margin:0}
+  .steps{margin-top:0}
+  .stair-txt{align-content:end;margin-top:0}
+  .tiles{grid-template-columns:repeat(2,1fr);gap:3.4rem 1.5rem;margin-top:4rem}
+  .tile,.tile:nth-child(even){grid-template-columns:32% 1fr;padding:0 1.6rem 1.6rem;gap:1.5rem}
+  .tile:nth-child(even){grid-template-columns:1fr 32%}
+  .tiles .tile:nth-child(3){transform:translateX(0)}
+  .things-grid{grid-template-columns:4fr 8fr;align-items:start;gap:3rem}
+  .things-r{display:grid;grid-template-columns:6fr 5fr;gap:2.5rem;align-items:stretch}
+  .sticker{font-size:1rem}.sticker b{font-size:1.5rem}
+  .stickers{gap:.9rem;align-content:center}
+  .home .wrap{display:grid;grid-template-columns:4fr 8fr;gap:3rem;align-items:start}
+  .days{grid-template-columns:repeat(3,1fr);margin-top:0;gap:1.2rem}
+  .days .leaf-w:nth-child(2){margin:2.2rem 0 -2.2rem}
+  .days .leaf-w:nth-child(3){margin:0}
+  .proof-grid{grid-template-columns:5fr 7fr;gap:4rem}
+  .revs-w{display:flex;flex-direction:column}
+  .revs{flex:1}
+  .stamp{width:13rem;height:13rem;font-size:1.125rem;top:-7rem;right:calc(var(--gutter) + 3%);padding:1rem}
+  .offer h2{max-width:none}
+  .offer-leaf{margin-top:2.5rem;margin-inline:0 1rem}
+  .offer-in{grid-template-columns:minmax(0,5fr) minmax(0,7fr);align-items:stretch}
+  .list{border-top:0;border-left:2px dashed #CFC8B8;padding:1.4rem 1.6rem;display:grid;grid-template-columns:1fr 1fr;gap:0 1.6rem;align-content:center}
+  .list li{grid-template-columns:56px 1fr;padding:.7rem 0;border-bottom:1px solid #EAE5DA}
+  .list li:nth-last-child(2){border:0}
+  .list img{width:56px}
+  .pricebox{padding:1.8rem 2rem 2rem}
+  .faq-grid{grid-template-columns:5fr 7fr;gap:4rem}
+  .final .wrap{display:grid;grid-template-columns:7fr 5fr;align-items:end}
+  .final .btn{width:auto;min-width:27rem}
+  .hands{width:21%;max-width:330px;top:2rem;right:4%}
+  .final{padding-top:12rem}
+}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <filter id="wob" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency=".035" numOctaves="2" seed="4"/><feDisplacementMap in="SourceGraphic" scale="3.5"/></filter>
+    <symbol id="hand" viewBox="0 0 100 110">
+      <g filter="url(#wob)" stroke-linecap="round" fill="inherit"><ellipse cx="52" cy="72" rx="26" ry="28"/>
+      <path d="M33 62L25 24" stroke-width="12"/><path d="M46 52L42 10" stroke-width="12"/><path d="M60 52L63 10" stroke-width="12"/><path d="M72 62L83 27" stroke-width="11"/><path d="M31 82L8 58" stroke-width="13"/></g>
+    </symbol>
+  </defs>
+</svg>
+
+<main>
+  <section class="hero" aria-label="Комплект 365 днів до НУШ">
+    <div class="wrap">
+      <div class="top">
+        <img class="logo" src="img/logo_red.png" width="480" height="248" alt="Видавництво Літера" fetchpriority="high">
+        <span class="serie">365 днів до НУШ</span>
+      </div>
+      <svg class="doodle d1" viewBox="0 0 100 100" aria-hidden="true" filter="url(#wob)"><circle cx="50" cy="50" r="18"/><path d="M50 8v14M50 78v14M8 50h14M78 50h14M21 21l10 10M69 69l10 10M79 21L69 31M31 69L21 79"/></svg>
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <h1>Рік до школи — <span class="mark">з планом<svg viewBox="0 0 300 20" preserveAspectRatio="none" aria-hidden="true"><path d="M3 13C60 5 120 17 170 9s90-2 127 3"/></svg></span></h1>
+          <p class="lead">8 посібників для підготовки дошкільнят до НУШ: грамота, логіка, письмо, мовлення й English.</p>
+        </div>
+        <div class="pile" data-bleed>
+          <img class="c" style="--x:-3%;--y:0%;--r:-4deg" src="img/kartky.jpg" width="500" height="632" alt="Обкладинка: Діагностичні картки" fetchpriority="high">
+          <img class="c" style="--x:23%;--y:3%;--r:2deg" src="img/rozvytok.jpg" width="508" height="690" alt="Обкладинка: Розвиток мовлення і мислення">
+          <img class="c" style="--x:47%;--y:-2%;--r:-2deg" src="img/logika.jpg" width="502" height="632" alt="Обкладинка: Логіка і математика">
+          <img class="c" style="--x:71%;--y:2%;--r:4deg" src="img/english.jpg" width="288" height="356" alt="Обкладинка: Англійська мова для дошкільнят">
+          <img class="c" style="--x:-1%;--y:37%;--r:3deg" src="img/gramota1.jpg" width="498" height="640" alt="Обкладинка: Дитяча грамота, крок 1">
+          <img class="c" style="--x:24%;--y:40%;--r:-3deg" src="img/gramota2.jpg" width="500" height="628" alt="Обкладинка: Дитяча грамота, крок 2">
+          <img class="c" style="--x:48%;--y:36%;--r:2deg" src="img/gramota3.jpg" width="502" height="628" alt="Обкладинка: Дитяча грамота, крок 3">
+          <img class="c" style="--x:70%;--y:39%;--r:-4deg" src="img/palchyky.jpg" width="500" height="628" alt="Обкладинка: Веселі пальчики">
+          <div class="leaf-w stacked hero-leaf"><div class="leaf"><span class="band">комплект</span><span class="num">1240</span><span class="cur">грн за 8 посібників</span></div></div>
+        </div>
+        <div class="hero-cta" data-cta-zone><a class="btn" href="[[посилання на оплату]]" data-cta>Замовити за 1240 грн</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sect who perf" aria-label="Для кого">
+    <div class="wrap">
+      <h2 class="reveal">Коли до школи ще рік</h2>
+      <ul>
+        <li class="reveal"><svg viewBox="0 0 48 48" stroke="#E72F2A" aria-hidden="true"><path d="M22 10L8 24l14 14M40 10L26 24l14 14"/></svg><h3>Хочеться почати зараз, а не в серпні</h3><p>Серія так і називається: «365 днів до НУШ». Час є, поспішати не треба.</p></li>
+        <li class="reveal"><svg viewBox="0 0 48 48" stroke="#5CA84C" aria-hidden="true"><path d="M22 10L8 24l14 14M40 10L26 24l14 14"/></svg><h3>Незрозуміло, за що братися першим</h3><p><b>Діагностичні картки</b> показують, що вже вміє дитина: рука, грамота, логіка, англійська.</p></li>
+        <li class="reveal"><svg viewBox="0 0 48 48" stroke="#02A0DD" aria-hidden="true"><path d="M22 10L8 24l14 14M40 10L26 24l14 14"/></svg><h3>Не хочеться збирати зошити по одному</h3><p>Грамота, логіка, письмо, мовлення й English приходять <b>одним замовленням.</b></p></li>
+        <li class="reveal"><svg viewBox="0 0 48 48" stroke="#FDC93C" aria-hidden="true"><path d="M22 10L8 24l14 14M40 10L26 24l14 14"/></svg><h3>Хочеться вдома, без сліз і репетиторів</h3><p>Дорослому є на що спертися: у посібниках серії є методичні поради саме для вас.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="sect anti perf" aria-label="Чого ми не обіцяємо">
+    <div class="fallen" aria-hidden="true" data-bleed>
+      <div class="leaf-w" style="--r:-6deg"><div class="leaf"><span class="band"></span><b>365</b></div></div>
+      <div class="leaf-w" style="--r:5deg"><div class="leaf"><span class="band"></span><b>364</b></div></div>
+    </div>
+    <div class="wrap anti-grid">
+      <div class="tear" aria-hidden="true" data-bleed>
+        <div class="leaf-w stacked" style="position:absolute;inset:0"><div class="leaf"><span class="band">до НУШ</span><span class="big" data-next>364</span><small>днів. По листку за раз.</small></div></div>
+        <div class="leaf-w" style="position:absolute;inset:0"><div class="leaf top-sheet" data-top><span class="band">до НУШ</span><span class="big" data-cur>365</span><small>днів. По листку за раз.</small></div></div>
+      </div>
+      <div>
+        <h2 class="reveal">Читати за місяць — не про нас</h2>
+        <p class="reveal">Тут немає обіцянки вивчити все за тиждень. 365 днів — це спокійний темп: сісти разом, зробити завдання, приклеїти наліпку й повернутися завтра.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sect books perf" aria-label="Що в комплекті">
+    <div class="wrap">
+      <div class="head">
+        <h2 class="reveal">Від перших звуків до впевненого письма</h2>
+        <p class="intro reveal">Вісім посібників, і кожен відповідає базовому компоненту дошкільної освіти. Так написано на обкладинках.</p>
+      </div>
+
+      <div class="bk-top">
+        <article class="start reveal">
+          <img src="img/kartky.jpg" width="500" height="632" alt="Обкладинка посібника Діагностичні картки" loading="lazy">
+          <div>
+            <span class="label">З цього почати</span>
+            <h3>Діагностичні картки</h3>
+            <p>Готовність руки до письма, дитяча грамота, логіка й математика, англійська.</p>
+            <span class="plus">+ наліпки для самооцінювання</span>
+            <span class="who-wrote">Юлія Буглак</span>
+          </div>
+        </article>
+
+        <article class="stairs reveal">
+          <span class="label">Дитяча грамота: три кроки</span>
+          <ol class="steps">
+            <li><img src="img/gramota1.jpg" width="498" height="640" alt="Обкладинка: Дитяча грамота, крок 1" loading="lazy"><b>Крок 1</b></li>
+            <li><img src="img/gramota2.jpg" width="500" height="628" alt="Обкладинка: Дитяча грамота, крок 2" loading="lazy"><b>Крок 2</b></li>
+            <li><img src="img/gramota3.jpg" width="502" height="628" alt="Обкладинка: Дитяча грамота, крок 3" loading="lazy"><b>Крок 3</b></li>
+          </ol>
+          <div class="stair-txt">
+            <div><h3>Спершу звуки</h3><p>Добуквений період: звуки, місце звука в слові, поділ на склади.</p></div>
+            <div><h3>Потім букви</h3><p>Буквений період: букви в словах і реченнях, читання простих слів, розповіді за малюнком, мовні ігри. <b>+ Каса букв</b></p></div>
+            <span class="who-wrote">Наталія Удовенко</span>
+          </div>
+        </article>
+      </div>
+
+      <div class="tiles">
+        <article class="tile reveal" style="--tint:var(--t-sun);--r:-3deg">
+          <img src="img/palchyky.jpg" width="500" height="628" alt="Обкладинка: Веселі пальчики" loading="lazy">
+          <div><h3>Веселі пальчики</h3><p>Рука готова до письма: графічні навички, пальчикова гімнастика, дрібна моторика.</p><span class="who-wrote">Анжеліка Цимбалару, Оксана Онопрієнко</span></div>
+        </article>
+        <article class="tile reveal" style="--tint:var(--t-green);--r:3deg">
+          <img src="img/logika.jpg" width="502" height="632" alt="Обкладинка: Логіка і математика" loading="lazy">
+          <div><h3>Логіка і математика</h3><p>Цифри від 0 до 10, перші математичні уявлення, прості логічні завдання.</p><span class="plus">+ Каса цифр</span><span class="who-wrote">Надія Войціщук</span></div>
+        </article>
+        <article class="tile reveal" style="--tint:var(--t-red);--r:2deg">
+          <img src="img/rozvytok.jpg" width="508" height="690" alt="Обкладинка: Розвиток мовлення і мислення" loading="lazy">
+          <div><h3>Розвиток мовлення і мислення</h3><p>Говорить сміливо, думає логічно: монолог, власна думка, увага, пам'ять, розповіді.</p><span class="plus">+ 58 наліпок до завдань</span><span class="who-wrote">Юлія Буглак</span></div>
+        </article>
+        <article class="tile reveal" style="--tint:var(--t-blue);--r:-2deg">
+          <img src="img/english.jpg" width="288" height="356" alt="Обкладинка: Англійська мова для дошкільнят" loading="lazy">
+          <div><h3>Англійська мова</h3><p>English з перших слів: базова лексика, веселі віршики й пісеньки, дрібна моторика.</p><span class="plus">+ аудіододаток і кольорові наліпки</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="sect things perf" aria-label="Додатки до посібників">
+    <div class="wrap things-grid">
+      <div>
+        <h2 class="reveal">Не лише зошити</h2>
+        <p class="note reveal">У комплекті є те, що дитина бере в руки, клеїть, слухає й складає. Усе це вказано на обкладинках.</p>
+      </div>
+      <div class="things-r">
+        <ul class="stickers">
+          <li class="sticker y" style="--r:-3deg"><b>Каса букв</b>у кроках 2 і 3</li>
+          <li class="sticker" style="--r:3deg"><b>Каса цифр</b>у «Логіці»</li>
+          <li class="sticker i" style="--r:2deg"><b>58 наліпок</b>у «Розвитку мовлення»</li>
+          <li class="sticker" style="--r:-3deg"><b>Аудіододаток</b>до English</li>
+          <li class="sticker" style="--r:-2deg"><b>Кольорові наліпки</b>теж до English</li>
+          <li class="sticker y" style="--r:2deg"><b>Наліпки для самооцінювання</b>у «Діагностичних картках»</li>
+        </ul>
+        <div class="ph">[[Фото: розгорнуті посібники й каса букв на столі, зверху. Дати реальний кадр від видавництва]]</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sect home perf" aria-label="Як користуватись">
+    <div class="wrap">
+      <h2 class="reveal">Як це виглядає вдома</h2>
+      <div class="days">
+        <div class="leaf-w reveal" style="--r:-1.5deg"><div class="leaf"><span class="band y">Сьогодні</span><p>Розгорніть діагностичні картки. Побачите, що вже виходить, а дитина сама оцінить себе наліпками.</p></div></div>
+        <div class="leaf-w reveal" style="--r:1.2deg"><div class="leaf"><span class="band g">Завтра</span><p>Беріть посібник за темою: пальчики, цифри, мовлення чи English. Грамоту ведіть за кроками: 1, 2, 3.</p></div></div>
+        <div class="leaf-w reveal" style="--r:-.8deg"><div class="leaf"><span class="band b">І далі</span><p>Коли виникає запитання, поруч методичні поради для дорослих. Один листок за раз, і так до школи.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sect proof perf" aria-label="Автори й відгуки">
+    <div class="stamp">Відповідає базовому компоненту дошкільної освіти</div>
+    <div class="wrap proof-grid">
+      <div>
+        <h2 class="reveal">Хто це написав</h2>
+        <ul class="authors">
+          <li><b>Наталія Удовенко</b><span>Дитяча грамота, кроки 1, 2 і 3</span></li>
+          <li><b>Юлія Буглак</b><span>Діагностичні картки, Розвиток мовлення і мислення</span></li>
+          <li><b>Надія Войціщук</b><span>Логіка і математика</span></li>
+          <li><b>Анжеліка Цимбалару, Оксана Онопрієнко</b><span>Веселі пальчики</span></li>
+        </ul>
+      </div>
+      <div class="revs-w">
+                <p class="sub" style="margin-bottom:.8rem"><b>Що кажуть батьки</b></p>
+        <div class="revs">
+          <div class="ph">[[Скрін відгуку батьків: реальний, з коментарів чи директа]]</div>
+          <div class="ph">[[Скрін відгуку 2]]</div>
+          <div class="ph">[[Фото: дитина із зошитом, від батьків, зі згодою]]</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sect offer perf" aria-label="Замовлення">
+    <div class="wrap offer-grid">
+      <h2 class="reveal">Усі вісім одним замовленням</h2>
+      <div class="leaf-w stacked offer-leaf" data-cta-zone>
+        <div class="leaf">
+          <span class="band y">Комплект «365 днів до НУШ»</span>
+          <div class="offer-in">
+            <div class="pricebox">
+              <div class="bigprice"><svg viewBox="0 0 300 150" preserveAspectRatio="none" aria-hidden="true"><path d="M60 22C120-2 250 2 286 40c22 42-40 96-132 100C70 146 2 116 10 66 16 34 60 14 130 12" vector-effect="non-scaling-stroke"/></svg>1240<small>грн</small></div>
+              <p class="math"><b>155 грн за посібник</b> у середньому. Якщо рахувати на 365 днів, близько 3,40 грн на день.</p>
+              <a class="btn" href="[[посилання на оплату]]" data-cta>Замовити за 1240 грн</a>
+              <p class="pay"><span class="fill">[[Способи оплати]]</span></p>
+            </div>
+            <ul class="list">
+              <li><img src="img/kartky.jpg" width="500" height="632" alt="" loading="lazy"><span><b>Діагностичні картки</b>: що вже вміє дитина</span></li>
+              <li><img src="img/gramota1.jpg" width="498" height="640" alt="" loading="lazy"><span><b>Дитяча грамота, крок 1</b>: звуки</span></li>
+              <li><img src="img/gramota2.jpg" width="500" height="628" alt="" loading="lazy"><span><b>Дитяча грамота, крок 2</b>: букви, каса букв</span></li>
+              <li><img src="img/gramota3.jpg" width="502" height="628" alt="" loading="lazy"><span><b>Дитяча грамота, крок 3</b>: букви, каса букв</span></li>
+              <li><img src="img/palchyky.jpg" width="500" height="628" alt="" loading="lazy"><span><b>Веселі пальчики</b>: рука й письмо</span></li>
+              <li><img src="img/logika.jpg" width="502" height="632" alt="" loading="lazy"><span><b>Логіка і математика</b>: каса цифр</span></li>
+              <li><img src="img/rozvytok.jpg" width="508" height="690" alt="" loading="lazy"><span><b>Розвиток мовлення і мислення</b>: 58 наліпок</span></li>
+              <li><img src="img/english.jpg" width="288" height="356" alt="" loading="lazy"><span><b>Англійська мова</b>: аудіододаток, наліпки</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sect faq perf" aria-label="Доставка й запитання">
+    <div class="wrap faq-grid">
+      <div>
+        <h2 class="reveal">Коротко про важливе</h2>
+        <ul class="ship">
+          <li><b>Доставка</b><span class="fill">[[Служби, строк, вартість]]</span></li>
+          <li><b>Оплата</b><span class="fill">[[Карткою, післяплата тощо]]</span></li>
+          <li><b>Повернення</b><span class="fill">[[Умови повернення]]</span></li>
+        </ul>
+      </div>
+      <div>
+        <details open><summary>А якщо дитина ще не знає букв?</summary><p>Перший крок «Дитячої грамоти» добуквений: звуки, місце звука в слові, склади. Букви приходять у кроках 2 і 3.</p></details>
+        <details><summary>Це відповідає програмі?</summary><p>На обкладинці кожного посібника зазначено: відповідає базовому компоненту дошкільної освіти.</p></details>
+        <details><summary>Що робити дорослому?</summary><p>Майже в кожному посібнику є методичні поради для дорослих, у багатьох в окремому додатку. Почати можна з діагностичних карток.</p></details>
+        <details><summary>А якщо англійська в батьків слабка?</summary><p>До посібника є аудіододаток, а також віршики, пісеньки й методичні поради для дорослих.</p></details>
+        <details><summary>Для якого віку комплект?</summary><p>Для дошкільнят. «Розвиток мовлення і мислення» розрахований на старший дошкільний вік. <span class="fill">[[Точні вікові межі: підтвердити]]</span></p></details>
+        <details><summary>Скільки часу займатиме щодня?</summary><p><span class="fill">[[Рекомендація методиста: скільки хвилин на день]]</span></p></details>
+        <p class="care">Залишились запитання? <span class="fill">[[Viber, Telegram чи телефон видавництва]]</span></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sect final perf" aria-label="Фінальний заклик">
+    <svg class="hands" viewBox="0 0 300 270" aria-hidden="true">
+      <use href="#hand" x="10" y="0" width="120" height="132" fill="#E72F2A" stroke="#E72F2A" transform="rotate(-14 70 66)"/>
+      <use href="#hand" x="160" y="24" width="110" height="121" fill="#5CA84C" stroke="#5CA84C" transform="rotate(12 215 84)"/>
+      <use href="#hand" x="80" y="130" width="120" height="132" fill="#02A0DD" stroke="#02A0DD" transform="rotate(6 140 196)"/>
+    </svg>
+    <div class="wrap" data-cta-zone>
+      <h2 class="reveal">До школи — з радістю</h2>
+      <div>
+        <p>Вісім посібників. Один комплект. 1240 грн.</p>
+        <a class="btn" href="[[посилання на оплату]]" data-cta>Замовити за 1240 грн</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="perf" aria-label="Юридична інформація">
+  <div class="wrap">
+    <img class="logo" src="img/logo_white.png" width="480" height="248" alt="Видавництво Літера" loading="lazy">
+    <p><span class="fill">[[ТОВ або ФОП, ЄДРПОУ або ІПН]]</span></p>
+    <p><a href="[[пошта чи месенджер]]">Написати нам</a> · <a href="[[оферта]]">Публічна оферта</a> · <a href="[[політика]]">Політика конфіденційності</a></p>
+  </div>
+</footer>
+
+<div class="sticky-cta" data-sticky-cta>
+  <a class="btn" href="[[посилання на оплату]]" data-cta>Замовити за 1240 грн</a>
+</div>
+
+<script>
+(() => {
+  // Поява блоків
+  const rev = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+    }), { rootMargin: '0px 0px -8% 0px' });
+    rev.forEach(el => io.observe(el));
+
+    // Закріплена кнопка ховається, поки видно зону з основною кнопкою
+    const sticky = document.querySelector('[data-sticky-cta]');
+    const zones = document.querySelectorAll('[data-cta-zone]');
+    if (sticky && zones.length) {
+      const seen = new Set();
+      const zio = new IntersectionObserver(es => {
+        es.forEach(e => e.isIntersecting ? seen.add(e.target) : seen.delete(e.target));
+        sticky.classList.toggle('on', seen.size === 0);
+      });
+      zones.forEach(z => zio.observe(z));
+    }
+
+    // Відривний листок: п'ять листків, коли блок у полі зору, потім зупинка
+    const tear = document.querySelector('.tear');
+    if (tear && !matchMedia('(prefers-reduced-motion:reduce)').matches) {
+      const top = tear.querySelector('[data-top]'), cur = tear.querySelector('[data-cur]'), nx = tear.querySelector('[data-next]');
+      let n = 365, ran = false;
+      const step = () => {
+        if (n <= 360) return;
+        top.classList.add('off');
+        setTimeout(() => {
+          n--; cur.textContent = n; nx.textContent = n - 1;
+          top.style.transition = 'none'; top.classList.remove('off');
+          top.offsetWidth; top.style.transition = '';
+          setTimeout(step, 1300);
+        }, 750);
+      };
+      new IntersectionObserver((es, o) => { if (es[0].isIntersecting && !ran) { ran = true; o.disconnect(); setTimeout(step, 900); } }, { threshold: .6 }).observe(tear);
+    }
+  } else {
+    rev.forEach(el => el.classList.add('in'));
+  }
+
+  // Передаємо UTM-мітки на сторінку оплати
+  const utm = new URLSearchParams(location.search);
+  [...utm.keys()].forEach(k => { if (!/^(utm_|fbclid|gclid)/.test(k)) utm.delete(k); });
+  if ([...utm].length) document.querySelectorAll('a[data-cta]').forEach(a => {
+    try {
+      const u = new URL(a.href);
+      utm.forEach((v, k) => u.searchParams.set(k, v));
+      a.href = u;
+    } catch {}
+  });
+})();
+</script>
+</body>
+</html>
